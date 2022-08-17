@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.chess-board{
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+}
+
+td.white{
+  background-color: white;
+}
+
+td.black{
+  background-color: black;
+}
+
+td.selected{
+  background-color: brown;
+}
+
+td.active{
+  background-color: chartreuse;
+}
